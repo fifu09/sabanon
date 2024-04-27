@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    backgroundImage: {
+      "younes" : "url('/yunes.png')"
+    },
     extend: {},
   },
   plugins: [],
