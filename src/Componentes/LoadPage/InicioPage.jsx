@@ -1,3 +1,4 @@
+
 export const InicioPage = () => {
   return (
     <section className="flex flex-col items-center p-20 h-full bg-younes bg-cover gap-20">
@@ -9,7 +10,8 @@ export const InicioPage = () => {
         <li>Pues nada, no se quieren rendir...</li>
       </ul>
       <div className="flex h-full w-full justify-around items-center">
-        <video src="/isma.mp4" className="w-[500px] animate-bounce" autoPlay={true} loop />
+        <video src="/isma.mp4" className="w-[500px] animate-bounce" autoPlay loop muted />
+        <img src="/losimpson_meme.gif" className="h-96" />
         <video src="/yunes_warwick.mp4" className="w-[500px]" autoPlay={true} loop muted />
       </div>
     </section>
